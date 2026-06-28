@@ -1,0 +1,2 @@
+requests>=2.32.0
+plyer>=2.1.0
