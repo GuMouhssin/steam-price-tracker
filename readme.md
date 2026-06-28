@@ -23,19 +23,20 @@ Built with **Steam Store API**, **SQLite**, and **Plyer notifications**.
 
 ## 🏗 Project Architecture
 
-```text
 steam-price-tracker/
-│── main.py          # CLI entrypoint
-│── db.py            # Database operations
-│── steam_api.py     # Steam API integration
-│── tracker.py       # Price checking logic
-│── alerts.py        # Desktop notifications
-│── utils.py         # Helper functions
-│── requirements.txt
-│── README.md
-```
-
----
+│── main.py          # Application entrypoint
+│── cli.py           # Interactive command-line interface
+│── config.py        # Global configuration/constants
+│── db.py            # SQLite database operations (CRUD + history)
+│── fetch.py         # Core HTTP request handling
+│── search.py        # Steam game search API logic
+│── parser.py        # Data normalization and parsing
+│── tracker.py       # Price comparison & tracking engine
+│── alerts.py        # Desktop notification system
+│── worker.py        # Background/scheduled tracker execution
+│── requirements.txt # Project dependencies
+│── .gitignore       # Ignored files
+│── README.md        # Documentation
 
 ## 🛠 Tech Stack
 
