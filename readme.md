@@ -22,7 +22,7 @@ Built with **Steam Store API**, **SQLite**, and **Plyer notifications**.
 ---
 
 ## 🏗 Project Architecture
-
+```
 steam-price-tracker/
 │── main.py          # Application entrypoint
 │── cli.py           # Interactive command-line interface
@@ -37,7 +37,7 @@ steam-price-tracker/
 │── requirements.txt # Project dependencies
 │── .gitignore       # Ignored files
 │── README.md        # Documentation
-
+```
 ## 🛠 Tech Stack
 
 * **Python**
