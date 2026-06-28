@@ -53,7 +53,7 @@ steam-price-tracker/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/steam-price-tracker.git
+git clone https://github.com/GuMouhssin/steam-price-tracker.git
 cd steam-price-tracker
 ```
 
